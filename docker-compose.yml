@@ -1,0 +1,364 @@
+services:
+  collect_strings:
+    build: .
+    volumes:
+      - .:/cc_event_bot
+    command: bash -c "pybabel extract --input-dirs=. -k __ -o locales/cc_event_bot.pot && pybabel update -d locales -D messages -i locales/cc_event_bot.pot"
+
+  compile_strings:
+    build: .
+    volumes:
+      - .:/cc_event_bot
+    command: pybabel compile -d locales -D messages
+
+  add_lang:
+    build: .
+    volumes:
+      - .:/cc_event_bot
+    command: bash -c "pybabel init -d locales -D messages -i locales/cc_event_bot.pot -l vi"
+
+  bot:
+    build: .
+    volumes:
+      - .:/cc_event_bot
+
+    environment:
+      PYTHONUNBUFFERED: 1
+      TZ: Europe/Moscow
+
+    logging:
+      options:
+        max-size: 50m
+
+    command: sh -c "python3 polling.py"
+    restart: unless-stopped
+
+
+  prod_bot:
+    build: .
+    volumes:
+      - .:/cc_event_bot
+
+    environment:
+      PYTHONUNBUFFERED: 1
+      TZ: Europe/Moscow
+      RELEASE: 1
+
+    logging:
+      options:
+        max-size: 50m
+
+    command: sh -c "python3 polling.py"
+    restart: unless-stopped
+
+
+  userbot:
+    build: .
+    volumes:
+      - .:/cc_event_bot
+
+    environment:
+      PYTHONUNBUFFERED: 1
+      TZ: Europe/Moscow
+      RELEASE: 1
+
+    logging:
+      options:
+        max-size: 50m
+
+    command: sh -c "python3 -m workers.userbot"
+    restart: unless-stopped
+
+  bots_autocollect:
+    build: .
+    volumes:
+      - .:/cc_event_bot
+
+    environment:
+      PYTHONUNBUFFERED: 1
+      TZ: Europe/Moscow
+      RELEASE: 1
+
+    logging:
+      options:
+        max-size: 50m
+
+    command: sh -c "python3 -m workers.bots_autocollect"
+    restart: unless-stopped
+
+  sms_forwarder:
+    build: .
+    volumes:
+      - .:/cc_event_bot
+    ports:
+      - 0.0.0.0:9538:9538
+
+    environment:
+      PYTHONUNBUFFERED: 1
+      TZ: Europe/Moscow
+      RELEASE: 1
+
+    logging:
+      options:
+        max-size: 50m
+
+    command: sh -c "python3 -m workers.sms_forwarder"
+    restart: unless-stopped
+
+  events_checker:
+    build: .
+    volumes:
+      - .:/cc_event_bot
+
+    environment:
+      PYTHONUNBUFFERED: 1
+      TZ: Europe/Moscow
+      RELEASE: 1
+
+    logging:
+      options:
+        max-size: 50m
+
+    command: sh -c "python3 -m autocollect_workers.events_checker"
+    restart: unless-stopped
+
+
+  mail_sender:
+    build: .
+    volumes:
+      - .:/cc_event_bot
+
+    environment:
+      PYTHONUNBUFFERED: 1
+      TZ: Europe/Moscow
+      RELEASE: 1
+
+    logging:
+      options:
+        max-size: 50m
+
+    command: sh -c "python3 -m workers.mail_sender"
+    restart: unless-stopped
+
+
+  mail_sender_international:
+    build: .
+    volumes:
+      - .:/cc_event_bot
+
+    environment:
+      PYTHONUNBUFFERED: 1
+      TZ: Europe/Moscow
+      RELEASE: 1
+
+    logging:
+      options:
+        max-size: 50m
+
+    command: sh -c "python3 -m workers.mail_sender_international"
+    restart: unless-stopped
+
+  home_worker:
+    build: .
+    volumes:
+      - .:/cc_event_bot
+
+    environment:
+      PYTHONUNBUFFERED: 1
+      TZ: Europe/Moscow
+      RELEASE: 1
+
+    logging:
+      options:
+        max-size: 50m
+
+    command: sh -c "python3 -m workers.home_worker"
+    restart: unless-stopped
+
+  team_up_worker:
+    build: .
+    volumes:
+      - .:/cc_event_bot
+
+    environment:
+      PYTHONUNBUFFERED: 1
+      TZ: Europe/Moscow
+      RELEASE: 1
+
+    logging:
+      options:
+        max-size: 50m
+
+    command: sh -c "python3 -m workers.team_up_worker"
+    restart: unless-stopped
+
+  trader_worker:
+    build: .
+    volumes:
+      - .:/cc_event_bot
+
+    environment:
+      PYTHONUNBUFFERED: 1
+      TZ: Europe/Moscow
+      RELEASE: 1
+
+    logging:
+      options:
+        max-size: 50m
+
+    command: sh -c "python3 -m workers.trader_worker"
+    restart: unless-stopped
+
+  trader_renew_accounts:
+    build: .
+    volumes:
+      - .:/cc_event_bot
+
+    environment:
+      PYTHONUNBUFFERED: 1
+      TZ: Europe/Moscow
+      RELEASE: 1
+
+    logging:
+      options:
+        max-size: 50m
+
+    command: sh -c "python3 -m workers.trader_renew_accounts"
+    restart: unless-stopped
+
+
+  thanksgiving_worker:
+    build: .
+    volumes:
+      - .:/cc_event_bot
+
+    environment:
+      PYTHONUNBUFFERED: 1
+      TZ: Europe/Moscow
+      RELEASE: 1
+
+    logging:
+      options:
+        max-size: 50m
+
+    command: sh -c "python3 -m workers.thanksgiving_worker"
+    restart: unless-stopped
+
+
+  puzzle_worker:
+    build: .
+    volumes:
+      - .:/cc_event_bot
+
+    environment:
+      PYTHONUNBUFFERED: 1
+      TZ: Europe/Moscow
+      RELEASE: 1
+
+    logging:
+      options:
+        max-size: 50m
+
+    command: sh -c "python3 -m workers.puzzle_worker"
+    restart: unless-stopped
+
+
+  puzzle_mine_up_worker:
+    build: .
+    volumes:
+      - .:/cc_event_bot
+
+    environment:
+      PYTHONUNBUFFERED: 1
+      TZ: Europe/Moscow
+      RELEASE: 1
+
+    logging:
+      options:
+        max-size: 50m
+
+    command: sh -c "python3 -m workers.puzzle_mine_up_worker"
+    restart: unless-stopped
+
+
+  puzzle_autocollect_worker:
+    build: .
+    volumes:
+      - .:/cc_event_bot
+
+    environment:
+      PYTHONUNBUFFERED: 1
+      TZ: Europe/Moscow
+      RELEASE: 1
+
+    logging:
+      options:
+        max-size: 50m
+
+    command: sh -c "python3 -m workers.puzzle_autocollect_worker"
+    restart: unless-stopped
+
+  team_notifier:
+    build: .
+    volumes:
+      - .:/cc_event_bot
+
+    environment:
+      PYTHONUNBUFFERED: 1
+      TZ: Europe/Moscow
+      RELEASE: 1
+
+    logging:
+      options:
+        max-size: 50m
+
+    command: sh -c "python3 -m workers.team_notifier"
+    restart: unless-stopped
+
+
+  payment_handler:
+    build: .
+    volumes:
+      - .:/cc_event_bot
+
+    environment:
+      PYTHONUNBUFFERED: 1
+      TZ: Europe/Moscow
+      RELEASE: 1
+
+    ports:
+      - 25015:25015
+      - 25027:25027
+      - 25024:25024
+
+    logging:
+      options:
+        max-size: 50m
+
+    command: sh -c "python3 -m workers.payment_handler"
+    restart: unless-stopped
+
+
+  drop_puzzle_attempts:
+    build: .
+    volumes:
+      - .:/cc_event_bot
+
+    logging:
+      options:
+        max-size: 50m
+
+    command: sh -c "python3 -m workers.drop_puzzle_attempts"
+    restart: unless-stopped
+
+  brute_accounts:
+    build: .
+    volumes:
+      - .:/cc_event_bot
+
+    logging:
+      options:
+        max-size: 50m
+
+    command: sh -c "python3 -m workers.brute_accounts"
+    restart: unless-stopped

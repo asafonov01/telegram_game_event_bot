@@ -1,0 +1,14 @@
+git+https://github.com/asimaranov/aiogram.git@dev-3.x
+pymongo
+motor
+uuid
+requests
+aiohttp
+dataclasses-json
+
+telethon
+xmltodict
+
+aiohttp_cors
+Babel
+httpx[http2]

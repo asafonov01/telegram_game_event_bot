@@ -1,0 +1,772 @@
+# Vietnamese translations for PROJECT.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-09-14 07:58+0000\n"
+"PO-Revision-Date: 2022-05-11 16:45+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: vi\n"
+"Language-Team: vi <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: commands.py:27
+msgid "Загадочный Пазл"
+msgstr "Mảnh ghép ma thuật"
+
+#: commands.py:28
+msgid "Великий Торговец"
+msgstr "Mặc cả khuyến mãi"
+
+#: commands.py:30
+msgid "Возвращение Домой"
+msgstr "Chào mừng trở về"
+
+#: commands.py:31
+msgid "10 Дней Призов"
+msgstr "Phúc Lợi Thành Chiến"
+
+#: commands.py:32
+msgid "Направляющая Рука"
+msgstr ""
+
+#: commands.py:33
+msgid "Добровольное пожертвование"
+msgstr "Quyên góp cho chúng tôi"
+
+#: commands.py:35
+msgid "Купить CastleCoin"
+msgstr "Mua CastleCoin"
+
+#: commands.py:37
+msgid "Использовать бесплатные попытки"
+msgstr "Sử dụng lời mời miễn phí"
+
+#: commands.py:38
+msgid "Сменить язык 🇬🇧/🇷🇺"
+msgstr "Thay đổi ngôn ngữ (🇻🇳)"
+
+#: commands.py:40
+msgid "Удалить свою ссылку"
+msgstr "Xóa link của bạn"
+
+#: autocollect_workers/dice_collector.py:54
+#: autocollect_workers/dice_collector.py:56
+msgid "Собрана настолка: {}"
+msgstr ""
+
+#: handlers/common.py:28
+msgid "Выбери язык бота"
+msgstr "Chọn ngôn ngữ"
+
+#: handlers/common.py:84
+msgid "{} / {} пазлов\n"
+msgstr "{} / {} Mảnh ghép ma thuật\n"
+
+#: handlers/common.py:88
+msgid ""
+"<b>Здравствуйте</b>, <a href='tg://user?id={}'>{}</a>.\n"
+"Ваш Telegram ID: <code>{}</code>\n"
+"\n"
+"<b>На балансе у Вас:</b>\n"
+"{} CastleCoin'ов\n"
+msgstr ""
+"<b>Chào mừng</b>, <a href='tg://user?id={}'>{}</a>.\n"
+"Telegram ID của bạn là: <code>{}</code>\n"
+"\n"
+"<b>Số dư của bạn là:</b>\n"
+"{} CastleCoin\n"
+
+#: handlers/common.py:93
+msgid ""
+"\n"
+"• @CCletsplay_bot — <b>связь с технической поддержкой.</b>\n"
+"• @letsplaycastleclash — <b>новостной канал об акциях и конкурсах.</b>\n"
+"• letsplaycastleclash.com — <b>сайт проекта.</b>"
+msgstr ""
+"\n"
+"• @CCletsplay_bot - <b>hỗ trợ.</b>\n"
+"• @letsplaycastleclash - <b>kênh tin tức và thông tin hữu dụng.</b>\n"
+"• letsplaycastleclash.com - <b>trang web chính thức.</b>"
+
+#: handlers/common.py:110
+msgid "{} CastleCoin - {} руб"
+msgstr "{} CastleCoin - {} EUR (Ơ - rô) | USD (Đô - la)"
+
+#: handlers/common.py:122
+#, fuzzy
+msgid ""
+"Выбран раздел: <b>Купить CastleCoin</b> \n"
+"\n"
+"<b>Курс:</b>\n"
+"• 1 CastleCoin = ₽1\n"
+"• 160 CastleCoin = €2\n"
+"• 10 CastleCoin = ₴5\n"
+"• 100 CastleCoin = ₴50\n"
+"• 1 CastleCoin = <a "
+"href=\"https://google.com/search?q=1+тенге+в+руб\">мониторинг ₸</a>\n"
+"• 1 CastleCoin = <a href=\"https://google.com/search?q=1+BYN+в+руб\"> "
+"маніторынг BYN</a>\n"
+"\n"
+"Пожалуйста, ознакомьтесь с прейскурантом событий "
+"letsplaycastleclash.com/#price"
+msgstr ""
+"Danh mục hiện tại: <b>Mua CastleCoin</b>\n"
+"\n"
+"<b>Tỉ giá trao đổi:</b>\n"
+"• 160 CastleCoin = 2€ (Ơ - rô)\n"
+"\n"
+"Vui lòng xem bảng giá cho các sự kiện tại trang web "
+"letsplaycastleclash.com/#price"
+
+#: handlers/common.py:134
+msgid ""
+"\n"
+"Если у Вас не получается купить CastleCoin'ы на сайте, предлагаем "
+"следующие варианты для самостоятельного перевода:\n"
+"\n"
+"• Сбербанк: <code>4276380220016518</code>\n"
+"• Tinkoff: <code>5536913939647661</code>\n"
+"• ВТБ: <code>2200240467204455</code>\n"
+"• Альфа: <code>5559492516306829</code>\n"
+"• Monobank (Украина): <code>4441114425412671</code>\n"
+"• Международный перевод через бота <b>[все страны]</b> <a "
+"href=\"https://t.me/letsplaycastleclash/3251\"><b>@donate</b></a>\n"
+"\n"
+"❗После оплаты с помощью самостоятельного перевода, <b>обязательно</b> "
+"пришлите чек в поддержку: @CCletsplay_bot с указанием времени проведения "
+"платежа, иначе CastleCoin'ы <b>не</b> будут зачислены на счёт."
+msgstr ""
+"\n"
+"Danh mục hiện tại: <b>Mua CastleCoin</b>\n"
+"\n"
+"— Tỉ giá trao đổi qua giao dịch quốc tế có thể xem tại "
+"t.me/letsplaycastleclash/3339:\n"
+"• 160 CastleCoin = 2 EUR \n"
+"\n"
+"— Tỉ giá trao đổi qua Paypal tại paypal@letsplaycastleclash.com:\n"
+"• 160 CastleCoin = 2 EUR \n"
+"• 140 CastleCoin = 2 USD \n"
+"• 100 CastleCoin = 1,3 USD | EUR \n"
+"• 10 CastleCoin = 0,13 USD | EUR \n"
+"\n"
+"— Vui lòng xem bảng giá cho các sự kiện tại: "
+"t.me/letsplaycastleclash/3333\n"
+"\n"
+"❗ Sau khi chuyển khoản thành công, vui lòng gửi hình ảnh qua hỗ trợ: "
+"@CCletsplay_bot và vui lòng cho biết thời gian thanh toán. Nếu không "
+"CastleCoins sẽ không được tích lũy vào tài khoản của bạn"
+
+#: handlers/common.py:152
+msgid "Неверная цена. Введи верную цену!"
+msgstr "Giá tiền không hợp lệ. Vui lòng ghi giá tiền hợp lệ!"
+
+#: handlers/common.py:158
+msgid "Слишком большая или маленькая цена. Введи верную цену!"
+msgstr "Giá tiền quá cao hoặc quá thấp. Vui lòng ghi giá tiền hợp lệ!"
+
+#: handlers/common.py:161
+msgid ""
+"<b>Выбрано {} CastleCoin'ов за {} рублей</b>.\n"
+"\n"
+"Оплатить можно <b><a "
+"href=\"https://letsplaycastleclash.com/payment?tg_id={}&count={}\">по "
+"ссылке</a></b> на сайте (только для пользователей РФ и Украины).\n"
+"\n"
+"Если у Вас не получается купить CastleCoin'ы на сайте, предлагаем "
+"следующие варианты для самостоятельного перевода:\n"
+"\n"
+"• Сбербанк: <code>4276380220016518</code>\n"
+"• Tinkoff: <code>5536913939647661</code>\n"
+"• ВТБ: <code>2200240467204455</code>\n"
+"• Альфа: <code>5559492516306829</code>\n"
+"• Monobank (Украина): <code>4441114425412671</code>\n"
+"• Международный перевод через бота <a "
+"href=\"https://t.me/letsplaycastleclash/3251\"><b>@donate</b></a> <b>[все"
+" страны]</b>\n"
+"\n"
+"❗После оплаты с помощью самостоятельного перевода, <b>обязательно</b> "
+"пришлите чек в поддержку: @CCletsplay_bot с указанием времени проведения "
+"платежа, иначе CastleCoin'ы <b>не</b> будут зачислены на счёт."
+msgstr ""
+"\n"
+"Danh mục hiện tại: <b>Mua CastleCoin</b>\n"
+"\n"
+"— Tỉ giá trao đổi qua giao dịch quốc tế có thể xem tại "
+"t.me/letsplaycastleclash/3339:\n"
+"\n"
+"\n"
+"— Tỉ giá trao đổi qua Paypal tại paypal@letsplaycastleclash.com:\n"
+"\n"
+"\n"
+"— Vui lòng xem bảng giá cho các sự kiện tại: "
+"t.me/letsplaycastleclash/3333\n"
+"\n"
+"❗ Sau khi chuyển khoản thành công, vui lòng gửi hình ảnh qua hỗ trợ: "
+"@CCletsplay_bot và vui lòng cho biết thời gian thanh toán. Nếu không "
+"CastleCoins sẽ không được tích lũy vào tài khoản của bạn"
+
+#: handlers/home.py:41 handlers/puzzles.py:52 handlers/team_up.py:41
+msgid ""
+"❌ События сейчас нет в игре. \n"
+"\n"
+"Анонс о запуске узнайте на канале @letsplaycastleclash"
+msgstr ""
+"❌Sự kiện chưa được bắt đầu trong game.\n"
+"\n"
+"Thông báo về sự kiện trong game có thể tìm thấy ở kênh "
+"@letsplaycastleclash"
+
+#: handlers/home.py:50
+msgid ""
+"Выбран раздел: <b>Возвращение Домой</b>\n"
+"\n"
+"• <a href=\"https://letsplaycastleclash.com/faq\"><b>Ознакомьтесь с "
+"FAQ</b></a> Возвращения Домой.\n"
+"• Введите код из акции на английском языке..."
+msgstr ""
+"Danh mục hiện tại: <b>Chào mừng trở về</b>\n"
+"\n"
+"• <a href=\"https://letsplaycastleclash.com/faq\"><b>Đọc các câu hỏi "
+"thường</b></a> gặp trong sự kiện.\n"
+"• Nhập mã của sự kiện Chào mừng trở về trong game bằng tiếng Anh..."
+
+#: handlers/home.py:62
+msgid ""
+"❌ <b>Неверный код.</b> Правильный код состоит из 8 символов, написан на "
+"английском языке и содержит символы 0-9 и A-F, обновляется каждую акцию. "
+"Скопируйте свой код из Акции \"Возвращение Домой\" и введите заново:"
+msgstr ""
+"❌ Mã không hợp lệ. Mã bao gồm 8 ký tự 0-9 và A-F. Mã được làm mới mỗi sự "
+"kiện. Vui lòng ghi mã hợp lệ..."
+
+#: handlers/home.py:74
+msgid ""
+"Нажмите кнопку <b>25</b>, чтобы выбрать число вводов кодов и получить "
+"Награды."
+msgstr "Chọn nút 30 để chọn số lượng mã và lấy quà."
+
+#: handlers/home.py:85 handlers/home.py:132 handlers/team_up.py:84
+#: handlers/team_up.py:131
+msgid ""
+"На этот код уже использованы бесплатные попытки ({}/{}). Следите за "
+"новостями на канале @letsplaycastleclash"
+msgstr ""
+"Lời mời miễn phí đã được sử dụng cho mã này ({}/{}). Theo dõi tin tức mới"
+" nhất ở kênh @letsplaycastleclash"
+
+#: handlers/home.py:95 handlers/team_up.py:94
+msgid "Ошибка: неверное число попыток. Введите верное число попыток"
+msgstr ""
+"Lỗi: Số lượng tài khoản được mời không hợp lệ. Vui lòng ghi số lượng "
+"chính xác"
+
+#: handlers/home.py:101
+msgid ""
+"❌ Лимит попыток превышен. Введите не более {} попыток для продолжения, "
+"или нажмите кнопку 30 попыток."
+msgstr ""
+"❌ Đã vượt quá giới hạn thử lại. Nhập không quá {} tài khoản được mời để "
+"tiếp tục, hoặc chọn nút 30 tài khoản được mời"
+
+#: handlers/home.py:114 handlers/team_up.py:113
+msgid ""
+"⚠ Введено слишком большое количество попыток. Изменено на {} попыток. По "
+"правилам Акции можно получить не больше - {} вводов."
+msgstr ""
+"⚠ Quá nhiều tài khoản được mời. Đã chuyển thành {} tài khoản được mời. "
+"Theo quy định của chương trình khuyến mãi, bạn không thể lấy nhiều hơn - "
+"{} tài khoản"
+
+#: handlers/home.py:124 handlers/team_up.py:123
+msgid ""
+"На этом коде уже введено {} попыток, больше ввести нельзя по правилам "
+"Акции."
+msgstr ""
+"{} tài khoản được mời đã được nhập bởi mã này, không thể nhập nhiều hơn "
+"theo quy định của sự kiện"
+
+#: handlers/home.py:147
+msgid ""
+"Добавляю попытки к коду... <i>(максимум {} попыток по правилам акции. "
+"Купите 240 CastleCoin\\`ов для получения фулл наград.)</i>"
+msgstr ""
+"Đang thêm tài khoản được mời tới mã ... (giới hạn là {} tài khoản được "
+"mời theo quy định của trò chơi. Vui lòng mua 240 CastleCoins để lấy hết "
+"mọi phần quà)"
+
+#: handlers/home.py:158
+msgid ""
+"<code>{}</code> успешно добавлен в очередь! Вы получите уведомление, "
+"когда закончится обработка кода. <i>(максимум {} попыток по правилам "
+"акции. Купите 100 CastleCoin\\`ов для получения фулл наград.)</i>"
+msgstr ""
+"<code>{}</code> đã thành công được thêm vào hàng chờ!. Bạn sẽ nhận được "
+"thông báo ngay khi mã được xử lý. <i>(giới hạn là {} tài khoản được mời "
+"theo quy định của trò chơi. Vui lòng mua 100 CastleCoins để lấy hết mọi "
+"phần quà)</i>"
+
+#: handlers/home.py:172
+msgid "Ваш код получил все 30 попыток, доступное по правилам Акции."
+msgstr ""
+"Mã của bạn đã nhận đủ tối đa 30 tài khoản được mời theo quy định của sự "
+"kiện."
+
+#: handlers/home.py:180 handlers/team_up.py:179
+msgid ""
+"❌ На балансе недостаточно CastleCoin'ов: необходимо {} CastleCoin, у вас "
+"доступно {} CastleCoin'ов"
+msgstr "❌ Bạn không có đủ CastleCoins: cần {} CaslteCoin, bạn có {} CaslteCoins"
+
+#: handlers/home.py:191 handlers/team_up.py:190
+msgid ""
+"✅ <code>{}</code> добавлен в очередь. Использовано {} CastleCoin'ов ({}) "
+"попыток."
+msgstr ""
+"✅ <code>{}</code> đã được thêm vào hàng chờ. Đã sử dụng {} CastleCoins "
+"({}) tài khoản được mời."
+
+#: handlers/puzzles.py:39
+msgid "10 случайных пазлов"
+msgstr "10 mảnh ghép ngẫu nhiên"
+
+#: handlers/puzzles.py:40
+msgid "Активировать доступ к Загадочному Пазлу"
+msgstr "Kích hoạt truy cập tới Mảnh ghép ma thuật"
+
+#: handlers/puzzles.py:41
+msgid "Подтвердить покупку"
+msgstr "Xác nhận thanh toán"
+
+#: handlers/puzzles.py:42
+msgid "Автосбор"
+msgstr "Tự động thu thập mảnh ghép"
+
+#: handlers/puzzles.py:65
+msgid "{} {} шт"
+msgstr "{} {} mảnh ghép"
+
+#: handlers/puzzles.py:81
+msgid ""
+"Выбран раздел: <b>Загадочный пазл</b>\n"
+"\n"
+"• <a href=\"https://letsplaycastleclash.com/faq\"><b>Ознакомьтесь с "
+"FAQ</b></a> Загадочного пазла.\n"
+"• Нажмите на кнопку<b> «Активировать доступ к пазлам»</b>, подтвердите "
+"покупку тарифа ещё раз, нажав <b>«Подтвердить покупку»</b>.\n"
+"• После активации, заново зайдите в раздел Загадочный Пазл, чтобы начать "
+"пользоваться."
+msgstr ""
+"Danh mục hiện tại: <b>Mảnh ghép ma thuật</b>\n"
+"\n"
+"• <a href=\"https://letsplaycastleclash.com/faq\"><b>Đọc câu hỏi thường "
+"gặp trong sự kiện</b></a> Mảnh ghép mà thuật\n"
+"• Chọn <b>«Kích hoạt truy cập tới mảnh ghép»</b>, sau đó xác nhận thanh "
+"toán bằng cách chọn <b>«Xác nhận thanh toán»</b>\n"
+"• Sau khi kích hoạt, vui lòng vào lại phần Mảnh ghép ma thuật để lấy các "
+"mảnh ghép"
+
+#: handlers/puzzles.py:93
+msgid ""
+"<b>Активировать доступ к пазлам</b> \n"
+"\n"
+"• За 10 CastleCoin вы получаете 30 кодов друга на один аккаунт по "
+"правилам События. \n"
+"• Покупка тарифа не ограничена."
+msgstr ""
+"<b>Kích hoạt truy cập tới mảnh ghép</b> \n"
+"\n"
+"• Với 10 CastleCoin bạn sẽ nhận được 30 mã code của bạn bè theo quy định "
+"của sự kiện\n"
+"• Thuế suất mua không giới hạn."
+
+#: handlers/puzzles.py:108
+msgid "У вас недостаточно CastleCoin'ов для покупки. Нужно {}, у вас есть: {}"
+msgstr "❌ Bạn không có đủ CastleCoins: cần {} CaslteCoin, bạn có {} CaslteCoins"
+
+#: handlers/puzzles.py:126
+msgid ""
+"✅ Загадочный Пазл куплен до {} <a "
+"href=\"http://google.com/search?q=time+in+moscow+now\"><b>Московское "
+"время</b></a>. \n"
+"Приятного пользования 😎 "
+msgstr ""
+"✅ Mảnh ghép ma thuật truy cập được mua cho tới {} theo <a "
+"href=\"http://google.com/search?q=time+in+moscow+now\"><b>giờ "
+"Moscow</b></a>.\n"
+"Hãy tận hưởng nó 😎 "
+
+#: handlers/puzzles.py:141
+msgid ""
+"Выбран раздел: <b>Автосбор пазлов</b> \n"
+"\n"
+"• Откройте любого Героя в Алтаре Героев >> под Героем синяя кнопка "
+"«Рекомендация», нажмите.\n"
+"• Вас перенаправит на страницу браузера. Из строки скопируйте ссылку >> "
+"отправьте ссылку боту. \n"
+"\n"
+"<b>⚠ Примечание:</b> Автосбор доступен при наличии 30 и более пазлов"
+msgstr ""
+"Danh mục hiện tại: <b>Tự động thu thập mảnh ghép</b> \n"
+" \n"
+"• Mở bất kỳ anh hùng nào ở trong đài tướng >> nhấn nút xanh «Đề cử» ở "
+"dưới anh hùng.\n"
+"• Bạn sẽ được chuyển hướng trực tiếp tới một trình duyệt web. Vui lòng "
+"sao chép link từ thanh công cụ và gửi nó vào đây...\n"
+"\n"
+"<b>⚠ Chú ý:</b> Tự động thu thập có sẵn nếu có lớn hơn 30 mảnh ghép."
+
+#: handlers/puzzles.py:168 handlers/puzzles.py:284 handlers/puzzles.py:290
+msgid ""
+"<b>❌ Доступно в платной версии</b>. Пожалуйста, активируйте Загадочный "
+"Пазл за 10 CastleCoin."
+msgstr ""
+"<b>❌ Có sẵn cho người dùng đã thanh toán.</b> Vui lòng kích hoạt truy cập"
+" cho 10 CastleCoin."
+
+#: handlers/puzzles.py:173 handlers/thanksgiving.py:76
+msgid ""
+"❌ <b>Неверная ссылка.</b> Причины возникновения: \n"
+"\n"
+"1. <b>signed_key</b> — отсутствует в ссылке, неверный символ и/или ваш "
+"ключ истек. Возьмите новую ссылку с активным signed_key. \n"
+"2. <b>uid</b> — отсутствует в ссылке и/или неверный IGG ID. Проверьте "
+"корректность IGG ID."
+msgstr ""
+"❌ <b>Link không hợp lệ.</b> Nguyên nhân:\n"
+"\n"
+"1. <b>singed_key</b> —  không có ở trong link hoặc tồn tại ký tự không "
+"hợp lệ. Vui lòng ghi một link với vị tướng khác.\n"
+"2. <b>uid</b> —  không có trong link hoặc IGG ID không hợp lệ."
+
+#: handlers/puzzles.py:184 handlers/thanksgiving.py:87
+msgid ""
+"❌ <b>Неверная ссылка</b> \n"
+"\n"
+" <b>uid</b> — отсутствует в ссылке и/или неверный IGG ID."
+msgstr ""
+"❌ <b>Link không hợp lệ</b> \n"
+"\n"
+"<b>uid</b> - không có trong link hoặc IGG ID không hợp lệ."
+
+#: handlers/puzzles.py:202 handlers/thanksgiving.py:104
+msgid ""
+"❌ <b>Неверная ссылка</b> \n"
+"\n"
+"<b>Возможные причины:</b>\n"
+"— Signed_key недоступен для использования. Пожалуйста, возьмите новую "
+"ссылку из игры.— Ссылка не содержит знаки: <b>& =</b> \n"
+"— В ссылке есть пробел. Проверьте, чтобы было без пробела.\n"
+"— Отсутствует <b>signed_key</b> или <b>uid</b>."
+msgstr ""
+"❌ <b>Link không hợp lệ</b>.\n"
+" <b>Nguyên nhân:</b>\n"
+"\n"
+"— Singed_key không hợp lệ để sử dụng. Vui lòng lấy link từ một vị tướng "
+"khác trong trò chơi.\n"
+"— Link nên chưa ký tự: <b>& =</b>\n"
+"— Link không nên bị ngắt quãng, vui lòng kiểm tra để đảm bảo không có "
+"khoảng trắng.\n"
+"— Link nên chứa <b>singed_key và uid."
+
+#: handlers/puzzles.py:220
+msgid "Ваш аккаунт получил все 30 пазлов, доступное по правилам Акции."
+msgstr "Tài khoản của bạn đã nhận đủ 30 mảnh ghép theo quy định của sự kiện."
+
+#: handlers/puzzles.py:237
+msgid "✅ <b>Ссылка добавлена.</b> Использовано 30 пазлов."
+msgstr "✅ <b>Link đã được thành công thêm vào.</b> Đã sử dụng 30 mảnh ghép."
+
+#: handlers/puzzles.py:268 handlers/puzzles.py:300
+msgid "😔 К сожалению, эти коды закончились. Сообщите в поддержку @CCletsplay_bot."
+msgstr ""
+"😔 Không may thay những mã này đã hết. Vui lòng báo cáo cho hỗ trợ "
+"@CCletsplay_bot."
+
+#: handlers/puzzles.py:310
+msgid "Ваш код для {} пазла: <code>{}</code>"
+msgstr "Mã của bạn cho mảnh ghép thứ {}: <code>{}</code>"
+
+#: handlers/puzzles.py:314
+msgid "⚠ Пожалуйста, воспользуйтесь кнопками бота"
+msgstr "⚠ Vui lòng sử dụng nút bấm trên bàn phím"
+
+#: handlers/puzzles.py:324
+msgid "Карта Созвездий *1"
+msgstr "Thẻ Siêu Luyện*1"
+
+#: handlers/puzzles.py:325
+msgid "Книга Навыка Супер-Питомца*30"
+msgstr "Chiêu Thức Siêu Thú*30"
+
+#: handlers/puzzles.py:326
+msgid "Сумка Питомцев IV*30"
+msgstr "Túi Thú IV*30"
+
+#: handlers/puzzles.py:327
+msgid "Ящик с частями Обликов Зданий I*20"
+msgstr "Hộp Skin Nhà I*20"
+
+#: handlers/puzzles.py:328
+msgid "Магическая Пыльца*10"
+msgstr "Bụi Phép*10"
+
+#: handlers/puzzles.py:329
+msgid "Сундук Замка VI*4"
+msgstr "Hòm Chiến VI*4"
+
+#: handlers/puzzles.py:330
+msgid "Сундук Замка V*4"
+msgstr "Hòm Chiến V*4"
+
+#: handlers/puzzles.py:331
+msgid "Мешок выбора Облика Эпич. Героя I*5"
+msgstr "Hộp Chọn Mảnh Skin Siêu Cấp I*5"
+
+#: handlers/puzzles.py:332
+msgid "Мешок выбора Осколков Эпич. Героя I*5"
+msgstr "Hộp Chọn Đá Hồn Siêu Cấp I*5"
+
+#: handlers/puzzles.py:358
+msgid ""
+"✅ Пазлы успешно введены на аккаунте IGG ID {}.\n"
+"\n"
+" Выберите следующие награды ниже. Доступно повторов пазлов: {}"
+msgstr ""
+"✅ Mảnh ghép đã thành công truy cập tài khoản IGG ID của tài khoản {}.\n"
+"\n"
+"Chọn phần quà tiếp theo ở bên dưới. Mảnh ghép lặp lại có sẵn: {}"
+
+#: handlers/puzzles.py:407
+msgid "Награда закончилась"
+msgstr "Phần quà đã hết"
+
+#: handlers/team_up.py:49
+#, fuzzy
+msgid ""
+"Выбран раздел: <b>Направляющая Рука</b>\n"
+"\n"
+"• <a href=\"https://letsplaycastleclash.com/faq\"><b>Ознакомьтесь с "
+"FAQ</b></a> Направляющей Руки.\n"
+"• Введите код из акции на английском языке..."
+msgstr ""
+"Danh mục hiện tại: <b>Chào mừng trở về</b>\n"
+"\n"
+"• <a href=\"https://letsplaycastleclash.com/faq\"><b>Đọc các câu hỏi "
+"thường</b></a> gặp trong sự kiện.\n"
+"• Nhập mã của sự kiện Chào mừng trở về trong game bằng tiếng Anh..."
+
+#: handlers/team_up.py:61
+#, fuzzy
+msgid ""
+"❌ <b>Неверный код.</b> Правильный код состоит из 8 символов, написан на "
+"английском языке и содержит символы 0-9 и A-F, обновляется каждую акцию. "
+"Скопируйте свой код из Акции \"Направляющая Рука\" и введите заново:"
+msgstr ""
+"❌ Mã không hợp lệ. Mã bao gồm 8 ký tự 0-9 và A-F. Mã được làm mới mỗi sự "
+"kiện. Vui lòng ghi mã hợp lệ..."
+
+#: handlers/team_up.py:73
+#, fuzzy
+msgid "Нажмите кнопку <b>1</b>, чтобы получить Награды."
+msgstr "Chọn nút 30 để chọn số lượng mã và lấy quà."
+
+#: handlers/team_up.py:100
+#, fuzzy
+msgid ""
+"❌ Лимит попыток превышен. Введите не более {} попыток для продолжения, "
+"или нажмите кнопку 3 попытки."
+msgstr ""
+"❌ Đã vượt quá giới hạn thử lại. Nhập không quá {} tài khoản được mời để "
+"tiếp tục, hoặc chọn nút 30 tài khoản được mời"
+
+#: handlers/team_up.py:146
+#, fuzzy
+msgid ""
+"Добавляю попытки к коду... <i>(максимум {} попыток по правилам акции. "
+"Купите 400 CastleCoin\\`ов для получения фулл наград.)</i>"
+msgstr ""
+"Đang thêm tài khoản được mời tới mã ... (giới hạn là {} tài khoản được "
+"mời theo quy định của trò chơi. Vui lòng mua 100 CastleCoins để lấy hết "
+"mọi phần quà)"
+
+#: handlers/team_up.py:157
+#, fuzzy
+msgid ""
+"<code>{}</code> успешно добавлен в очередь! Вы получите уведомление, "
+"когда закончится обработка кода. <i>(максимум {} попыток по правилам "
+"акции. Купите 400 CastleCoin\\`ов для получения фулл наград.)</i>"
+msgstr ""
+"<code>{}</code> đã thành công được thêm vào hàng chờ!. Bạn sẽ nhận được "
+"thông báo ngay khi mã được xử lý. <i>(giới hạn là {} tài khoản được mời "
+"theo quy định của trò chơi. Vui lòng mua 100 CastleCoins để lấy hết mọi "
+"phần quà)</i>"
+
+#: handlers/team_up.py:171
+#, fuzzy
+msgid "Ваш код получил все 3 попытки, доступные по правилам Акции."
+msgstr ""
+"Mã của bạn đã nhận đủ tối đa 30 tài khoản được mời theo quy định của sự "
+"kiện."
+
+#: handlers/thanksgiving.py:31
+msgid ""
+"Выбран раздел: <b>10 дней призов</b> \n"
+"\n"
+"• Откройте любого Героя в Алтаре Героев >> под Героем синяя кнопка "
+"«Рекомендация», нажмите.\n"
+"• Вас перенаправит на страницу браузера. Из строки скопируйте ссылку >> "
+"отправьте ссылку боту."
+msgstr ""
+"Danh mục hiện tại: Phúc lợi thành chiến\n"
+"\n"
+"• Mở bất kỳ anh hùng nào ở trong đài tướng >> nhấn nút xanh «Đề cử» ở "
+"dưới anh hùng.\n"
+"• Bạn sẽ được chuyển hướng trực tiếp tới một trình duyệt web. Vui lòng "
+"sao chép link từ thanh công cụ và gửi nó vào đây..."
+
+#: handlers/thanksgiving.py:44
+msgid "Удалить данные с IGG ID {}"
+msgstr "Xóa tài khoản của bạn với IGG ID {}"
+
+#: handlers/thanksgiving.py:50
+msgid "Выберите, какие данные нужно удалить:"
+msgstr "Hãy chọn link để xóa"
+
+#: handlers/thanksgiving.py:55
+msgid "Вы еще не добавили ни одной ссылки в бота"
+msgstr "Bạn chưa thêm link nào vào chương trình"
+
+#: handlers/thanksgiving.py:65
+msgid "Вы успешно удалили ссылку с IGG ID: {}"
+msgstr "Bạn đã thành công loại bỏ link với IGG ID: {}"
+
+#: handlers/thanksgiving.py:131
+msgid ""
+"✅ <b>Ссылка добавлена.</b>\n"
+"\n"
+"‼️ Политика конфиденциальности: letsplaycastleclash.com/policy"
+msgstr ""
+"✅ <b>Link đã được thêm thành công.</b>\n"
+"\n"
+"‼️ Chính sách bảo mật: letsplaycastleclash.com/policy"
+
+#: handlers/trader.py:18
+msgid ""
+"Выбран раздел: <b>Великий Торговец</b>\n"
+"\n"
+"• <a href=\"https://letsplaycastleclash.com/faq\"><b>Ознакомьтесь с "
+"FAQ</b></a> Великого Торговца.\n"
+"• Отправьте код предмета, чтобы снизить цену"
+msgstr ""
+"Danh mục hiện tại: <b>Mặc cả khuyến mãi</b>\n"
+"\n"
+"• <a href=\"https://letsplaycastleclash.com/faq\"><b>Đọc các câu hỏi "
+"thường</b></a> gặp về sự kiện Mặc cả khuyến mãi.\n"
+"• Nhập mã của vật phẩm bạn cần giảm giá trong game..."
+
+#: handlers/trader.py:30
+msgid ""
+"❌ Ошибка: неверный код. Скопируйте код предмета из Акции \"Великий "
+"Торговец\" и введите заново:"
+msgstr ""
+"❌ Lỗi: định dạng mã không hợp lệ. Vui lòng sao chép mã từ vật phẩm của sự"
+" kiện Mặc cả khuyến mãi và nhập lại"
+
+#: handlers/trader.py:37
+msgid "⚠ Код уже в очереди."
+msgstr "⚠ Mã đã được thêm vào hàng chờ. Vui lòng chờ thông báo."
+
+#: handlers/trader.py:43
+msgid "❌ <b>Неверный код.</b> Пожалуйста, отправьте код из Великого Торговца..."
+msgstr ""
+"❌ <b>Lỗi: mã không hợp lệ.</b> Vui lòng sao chép mã từ vật phẩm của sự "
+"kiện Mặc cả khuyến mãi và nhập lại"
+
+#: handlers/trader.py:49
+msgid "✅ Код {} добавлен в очередь."
+msgstr "✅ Mã {} đã được thêm vào hàng chờ. Vui lòng chờ thông báo."
+
+#: workers/home_worker.py:69
+msgid ""
+"✅ Награды по коду Акции {} полностью отправлены. Получите награды в "
+"игровом почтовом ящике."
+msgstr "✅ Mã {} đã nhận được phần thưởng thành công."
+
+#: workers/home_worker.py:123
+msgid ""
+"❌ Произошла ошибка {} у кода {}. Свяжитесь с поддержкой через "
+"@CCletsplay_bot со скриншотом ошибки для выяснения причины"
+msgstr ""
+
+#: workers/payment_handler.py:87 workers/payment_handler.py:158
+#: workers/payment_handler.py:225 workers/userbot.py:107
+msgid "✅ Вам было успешно начислено {} CastleCoin. Приятной игры."
+msgstr ""
+"✅ Bạn đã được thêm vào thành công {} CastleCoin. Chúc bạn chơi game vui "
+"vẻ."
+
+#: workers/trader_worker.py:53
+msgid "Код {} начал обрабатываться... "
+msgstr "Mã {} đang được xử lí..."
+
+#: workers/trader_worker.py:74 workers/trader_worker.py:89
+msgid "✅ Цена предмета по коду {} максимально снижена"
+msgstr "✅ Giá của vật phẩm theo mã code {} đã được giảm tối đa"
+
+#: workers/userbot.py:109
+msgid "С вашего баланса было списано {} CastleCoin."
+msgstr "😔 {} CastleCoin đã được rút ra từ tài khoản của bạn."
+
+#~ msgid ""
+#~ "<b>Выбрано {} CastleCoin'ов за {} рублей</b>.\n"
+#~ "\n"
+#~ "Оплатить можно <b><a "
+#~ "href=\"https://letsplaycastleclash.com/payment?tg_id={}&count={}\">по"
+#~ " ссылке</a></b> на сайте (только для "
+#~ "пользователей из РФ).\n"
+#~ "\n"
+#~ "Если у Вас не получается купить "
+#~ "CastleCoin'ы на сайте, предлагаем следующие"
+#~ " варианты для самостоятельного перевода:\n"
+#~ "\n"
+#~ "• Сбербанк: <code>4276380220016518</code>\n"
+#~ "• Tinkoff: <code>5536913939647661</code>\n"
+#~ "• ВТБ: <code>2200240731620940</code>\n"
+#~ "• Альфа: <code>5559492516306829</code>\n"
+#~ "• Monobank (Украина): <code>4441114425412671</code>"
+#~ " / <code>ZAVADOVSKYI VLADYSLAV</code>\n"
+#~ "• Международный перевод через бота <a"
+#~ " href=\"https://t.me/letsplaycastleclash/3251\"><b>@donate</b></a>"
+#~ "\n"
+#~ "\n"
+#~ "❗После оплаты с помощью самостоятельного "
+#~ "перевода, <b>обязательно</b> пришлите чек в"
+#~ " поддержку: @CCletsplay_bot с указанием "
+#~ "времени проведения платежа, иначе CastleCoin'ы"
+#~ " <b>не</b> будут зачислены на счёт."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Нажмите кнопку <b>10</b> или <b>15</b>, "
+#~ "чтобы выбрать число вводов кодов и "
+#~ "получить Награды. Максимальное количество "
+#~ "попыток по правилам Событии - 25.\n"
+#~ ""
+#~ "\n"
+#~ "<b>⚠ Обратите внимание:</b>\n"
+#~ "1. Почта имеет ограничение в 60 "
+#~ "слотов, <b>своевременно забирайте награду "
+#~ "после первого ввода кода</b>.\n"
+#~ "2. CastleCoin <b>не будут возмещены</b> "
+#~ "на баланс, в случае утери Наград."
+#~ msgstr "Chọn nút 30 để chọn số lượng mã và lấy quà."
+
